@@ -4,7 +4,7 @@ import sqlite3
 from flask import Flask
 from flask import request,redirect,url_for,session,flash
 from flask_wtf import Form
-from wtforms import TextField
+from wtforms import StringField
 app = Flask(__name__)
 app.secret_key = "super secret key"
 
